@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-11-2021 a las 21:20:15
+-- Tiempo de generación: 28-11-2021 a las 03:23:28
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.2.29
 
@@ -45,7 +45,8 @@ INSERT INTO `historial` (`id`, `Correctas`, `Incorrectas`, `idt2`, `iduser`) VAL
 (10, 9, 1, 4, 1),
 (12, 8, 2, 4, 1),
 (17, 8, 2, 3, 1),
-(18, 4, 6, 3, 1);
+(18, 4, 6, 3, 1),
+(19, 6, 4, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -93,7 +94,8 @@ INSERT INTO `resultado` (`id`, `Correctas`, `Incorrectas`, `idt2`, `iduser`) VAL
 (13, 3, 7, 1, 1),
 (14, 8, 2, 1, 3),
 (17, 8, 2, 4, 1),
-(23, 4, 6, 32, 1);
+(23, 4, 6, 32, 1),
+(24, 6, 4, 3, 1);
 
 -- --------------------------------------------------------
 
@@ -534,7 +536,7 @@ ALTER TABLE `userxwz`
 -- AUTO_INCREMENT de la tabla `historial`
 --
 ALTER TABLE `historial`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT de la tabla `inicio`
@@ -546,7 +548,7 @@ ALTER TABLE `inicio`
 -- AUTO_INCREMENT de la tabla `resultado`
 --
 ALTER TABLE `resultado`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT de la tabla `tabla1`
